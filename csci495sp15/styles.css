@@ -1,0 +1,39 @@
+/*html{*/
+   /*background: url[ccuBackground.jpg] no-repeat center center fixed;*/
+   /*-webkit-background-size: cover;*/
+   /*-moz-background-size: cover;*/
+   /*-o-background-size: cover;*/
+   /*background-size: cover;*/
+   /**/
+   /*font-family:"Georgia", serif;*/
+   /*}*/
+   
+ #main {
+     margin-top: 20px;
+
+}
+
+#colorbody{
+    background-color: #006F71;
+}
+
+/*#main {*/
+   /*background-color: #cfd0cf;*/
+   /*padding: 20px;*/
+   /*border: 1px solid black;*/
+   /**/
+   /*border-radius: 10px;*/
+/*}*/
+
+h1 {
+   text-align: center;
+
+}
+
+.align
+{
+   margin-left:145px;
+   width:50%;
+}
+
+
