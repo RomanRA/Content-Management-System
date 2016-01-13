@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+body{
+    margin:50px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:12px;
+    line-height:14px;
+    color: #becb8f;
+    background-color: #685642;
+
+}
+
+img{
+    border:1px solid #112311;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 4px;
+    border-color: #112311;
+}
+
+/* Regular page links */
+/* psuedo class 4 Phases of classs order matters*/
+a:link {color: #112311;}    /* unvisited link */
+a:visited {color: #112311
+}  /* visited link */
+a:hover {background-color: #bc9d7d; color: #112311;}  /* mouse over link */
+a:active {background-color: #bc9d7d; color: #112311; }  /* selected link */
+
+td{
+    padding:5px;
+}
+
+/*Classes*/
+.banner{
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.currentPage{
+    background-color: #112311;
+    border:1px solid #899466;
+    padding: 1px 0px 1px 0px;
+    text-align:left;
+    width:1000px;
+    margin:auto;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-variant:small-caps;
+}
+
+.currentPage h1{
+    padding-left: 10px;
+}
+
+.currentPage img{
+    width: 998px;
+}
+
+.nav{
+    background-color: #112311;
+    border:1px solid #899466;
+    padding: 3px 0px 3px 0px;
+    text-align:center;
+    width:1000px;
+    margin:auto;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:20px;
+    line-height:20px;
+    font-variant:small-caps;
+}
+
+/* Navigation links */
+.nav a:link {color: #becb8f
+}    /* unvisited link */
+.nav a:visited {color: #becb8f
+}  /* visited link */
+.nav a:hover {background-color: #bc9d7d; color: #112311; text-decoration: overline;}  /* mouse over link */
+.nav a:active {background-color: #bc9d7d; color: #112311; }  /* selected link */
+
+.main{
+    border:1px solid #685642;
+    padding-top:25px;
+    width:1000px;
+    margin:auto;
+    text-align:justify;
+}
+
+.left{
+    background-color: #67724e;
+    width:700px;
+    float:left;
+    display:inline;
+    margin-top:10px;
+    border:1px solid #112311;
+    margin-bottom:20px;
+    padding:6px;
+
+
+
+}
+.left img{
+    margin:auto;
+    border:1px solid #ded29e;
+
+}
+.left form {
+    display: block;
+    margin-top:0;
+}
+
+.right{
+
+    width:200px;
+    float:right;
+    padding: 10px;
+    background-color: #67724e;
+    color:#000;
+    display:inline;
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:20px;
+    color: #433629;
+    border:1px solid #112311;
+}
+
+/* Right column links */
+.right a:link {color: #becb8f;}    /* unvisited link */
+.right a:visited {color: #becb8f
+}  /* visited link */
+.right a:hover {background-color: #bc9d7d; color: #112311; text-decoration: overline;}  /* mouse over link */
+.right a:active {background-color: #bc9d7d; color: #112311; }  /* selected link */
+
+.footer{
+    text-align:center;
+    clear:both;
+    border-top: 1px solid #899466;
+    font-size:10px;
+    line-height:20px;
+    font-style:italic;
+}
+
+#topnav li{
+    display:inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
